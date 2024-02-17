@@ -1,0 +1,126 @@
+[
+    {
+      "response_type": "greeting",
+      "user_input": ["hello","hey","hi", "hi there"],
+      "bot_response": [
+        "Hello! How can I assist you today?",
+        "Hey there! Ready to assist. What can I help you with?",
+        "Hi! Here and ready to help. What's on your mind?",
+        "Greetings! What brings you here? How can I assist?"
+      ],
+      "required_words": ["hello"]
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["good morning", "morning"],
+      "bot_response": [
+        "Good morning! What can I do for you?",
+        "Morning! Any special requests for today?",
+        "Rise and shine! How can I make your day better?",
+        "Welcoming a new day. What can I do for you today?"
+      ],
+      "required_words": ["good","morning"]
+    },
+
+    {
+      "response_type": "greeting",
+      "user_input": ["good", "afternoon", "evening"],
+      "bot_response": [
+        "Good afternoon! How may I assist you?",
+        "Afternoon! Any specific requests for today?",
+        "Wishing you a pleasant afternoon! What can I do for you?",
+        "Hello! Ready to help. How can I assist you this afternoon?"
+      ],
+      "required_words": ["afternoon", "good"]
+    },
+
+    {
+      "response_type": "greeting",
+      "user_input": ["see you", "goodbye", "bye"],
+      "bot_response": [
+        "See you later!",
+        "Goodbye! Have a great day!"
+      ],
+      "required_words": ["see you", "goodbye", "bye"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "are", "you", "Doing", "okay"],
+      "bot_response": [
+        "I'm great! Thanks for asking.",
+        "I'm doing wonderfully, thank you for asking!",
+        "I'm fantastic, thank you! How can I help you today?",
+        "I'm great! Grateful for the opportunity to assist you.",
+        "I'm doing well, and I'm here to help. What can I do for you?"
+      ],
+      "required_words": ["how", "are", "you"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what's", "the", "weather", "like", "today"],
+      "bot_response": [
+        "I'm sorry, I don't have real-time weather information. You can check a weather website or app for the latest updates.",
+        "i can't help with that"
+      ],
+      "required_words": ["weather"]
+    },
+    {
+      "response_type": "introduction",
+      "user_input": ["tell", "about", "yourself","tell", "about", "who" , "what", "are" , "you"],
+      "bot_response": [
+        "I am a chatbot designed to assist you. Feel free to ask me anything!",
+        "I'm Timachat, at your service! As a chatbot, I'm here to assist. Feel free to ask me anything!",
+        "Timachat here, ready to help you with any questions!"
+      ],
+      "required_words": ["tell", "about", "who" , "what","are" , "you"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "to", "start", "learn", "code", "coding", "apps", "programming", "language"],
+      "bot_response": [
+        "The best programming language depends on your goals. For web development, consider JavaScript; for data science, Python is popular.",
+        "To start learning programming, choose a beginner-friendly language like Python or JavaScript. Explore online tutorials, coding exercises, and practice regularly."
+      ],
+      "required_words": ["learn", "code", "programming", "start"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["joke", "Tell", "can", "me", "you", "say"],
+      "bot_response": [
+          "Sure, here's a joke for you: What did one wall say to the other wall? 'I'll meet you at the corner!'",
+          "What did one plate say to another plate? Tonight, dinner's on me!",
+          "Why did the scarecrow win an award? Because he was outstanding in his field!",
+          "Why did the bicycle fall over? Because it was two-tired!",
+          "What did one hat say to another? Stay here, I'm going on ahead!"
+      ],
+      "required_words": ["joke"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["do", "you", "know", "the", "lyrics", "song"],
+      "bot_response": [
+        "Certainly! Here are the lyrics to the song 'Happy' by Pharrell Williams:  Huh (Because I'm happy) Clap along if you feel like a room without a roof (Because I'm happy) Clap along if you feel like happiness is the truth (Because I'm happy) Clap along if you know what happiness is to you ",
+        "Ofcourse! Here's a snippet of the lyrics from the song 'Snowman' by Sia:  I want you to know that I'm never leaving Cause I'm Mrs. Snow, 'til death we'll be freezing..Yeah, you are my home, my home for all seasons..So come on, let's go"
+      ],
+      "required_words": ["lyrics", "song", "words"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["can", "you", "suggest", "a", "poem", "do", "know"],
+      "bot_response": [
+        "Sure! Here's a classic poem by Robert Frost titled 'The Road Not Taken':  Two roads diverged in a yellow wood, And sorry I could not travel both And be one traveler, long I stood And looked down one as far as I could To where it bent in the undergrowth;",
+        "Certainly! Here's an excerpt from a poem by Khalil Gibran's poem 'On Joy and Sorrow':  Your joy is your sorrow unmasked. And the selfsame well from which your laughter rises was oftentimes filled with your tears. "
+      ],
+      "required_words": ["poem"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["summarize", "text", "brief", "short"],
+      "bot_response": [
+        "provide the text you want me to summarize",
+        "Sure, what do you want me to summarize!",
+        "ofcourse! tell me what to summarize!"
+      ],
+      "required_words": ["summarize", "brief", "short", "summarization"]
+    }
+  ]
